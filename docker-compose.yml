@@ -1,0 +1,15 @@
+version: "3"
+services:
+  backend:
+    image: joneheejin/springboot-demo
+    container_name: springboot-demo
+    volumes:
+      - /app/node_modules
+      - ./awsdemo1:/app
+#    environment:
+#      MYSQL_HOST: $MYSQL_HOST
+#      MYSQL_USER: $MYSQL_USER
+#      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+#      MYSQL_DATABASE: $MYSQL_DATABASE
+#      MYSQL_PORT: $MYSQL_PORT
+
